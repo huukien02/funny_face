@@ -1,0 +1,23 @@
+.video-detail {
+  background: #32323280;
+  text-align: center;
+  padding: 80px 24px;
+}
+
+.detail-result {
+  color: #1db954;
+  font-size: 24px;
+}
+
+.detail-video-item {
+  border: 8px solid #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.detail-video-item > video {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}

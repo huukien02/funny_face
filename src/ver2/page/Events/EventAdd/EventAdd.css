@@ -1,0 +1,110 @@
+.addEvent {
+  display: flex;
+  justify-content: space-between;
+  background: #191919;
+  gap: 30px;
+  padding: 30px;
+}
+
+/* * style slider */
+
+.slick-slider.addEvent-slider.slick-initialized {
+  max-width: 50vw;
+}
+
+.addEvent-slider .slick-list {
+  padding: 0 !important;
+}
+
+/* ----____________________---- */
+
+.addEvent-upload > div {
+  margin-bottom: 24px;
+}
+
+.addEvent-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  margin-bottom: 16px;
+}
+.addEvent-view > h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.addEvent-view > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1db954;
+}
+
+.addEvent-btn {
+  background: #fff;
+  border-radius: 16px;
+  height: 40px;
+  position: relative;
+  margin-top: 10px;
+}
+.addEvent-btn > input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 99;
+  cursor: pointer;
+}
+.addEvent-btn > p {
+  font-size: 16px;
+  font-weight: 700;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.addEvent-show {
+  padding: 28px;
+  background: #0f0f0f;
+  border-radius: 16px;
+}
+
+/* view all */
+.viewAll-back {
+  color: white;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.viewAll-back > h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.viewAll-back > a > svg {
+  font-size: 24px;
+}
+
+.viewAll-content {
+  max-height: 80vh;
+  overflow: auto;
+}
+.viewAll-content::-webkit-scrollbar {
+  width: 8px;
+  background-color: #00000066;
+}
+.viewAll-content::-webkit-scrollbar-thumb {
+  background: #a9a9a9;
+}
+
+button.addEvent-btn-create {
+  background: #1db954;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 16px 40px;
+  border-radius: 8px;
+  margin: 40px auto 0;
+  display: block;
+}

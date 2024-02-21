@@ -1,0 +1,81 @@
+.make-image {
+  background: #32323280;
+}
+
+.make-image .create-image {
+  width: 160px;
+  height: 160px;
+  border: 6px solid #26a5fc;
+  border-radius: 50%;
+  position: relative;
+
+  background-color: #8c8c8c;
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.make-image .create-image-add {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 60px;
+  height: 60px;
+}
+
+.make-image .name-image,
+.make-image .start-image {
+  background-color: #303030;
+  border-radius: 8px;
+  gap: 10px;
+  width: 267px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.make-image .name-image > input {
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  width: 138px;
+}
+
+.make-image .name-image > input::placeholder {
+  color: #fff;
+}
+
+.make-image .start-image {
+  background: #1db954;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.make-image .upload-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.make-image__image {
+  border: 8px solid #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.make-image__image > image {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.make-image {
+  padding: 80px 24px;
+}

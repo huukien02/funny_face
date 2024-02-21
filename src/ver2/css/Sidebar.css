@@ -1,0 +1,7 @@
+.menu-link > svg {
+  font-size: 32px;
+}
+
+.menu-link.active > svg, .menu-link.active > span {
+  color: #1db954;
+}

@@ -1,0 +1,116 @@
+.love-content {
+  padding-top: 160px;
+  width: 642px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.love-item {
+  display: flex;
+  gap: 8px;
+}
+
+.love-upload-image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  position: relative;
+
+  background: linear-gradient(0deg, #777777, #777777);
+  overflow: hidden;
+}
+.love-upload-image.love-boy {
+  border: 6px solid #26a5fc;
+}
+.love-upload-image.love-girl {
+  border: 6px solid rgb(255, 53, 110);
+}
+.love-upload-image > input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.love-icon-add {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 40px;
+  height: 40px;
+}
+
+.love-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.love-name > input {
+  width: 132px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+  padding: 0 15px;
+}
+.love-name > input::placeholder {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+.love-name.love-boy > input {
+  background: #26a5fc;
+}
+.love-name.love-girl > input {
+  background: rgb(255, 53, 110);
+}
+
+.love-small {
+  display: flex;
+  align-items: flex-end;
+}
+
+.love-main {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.love-heart {
+  width: 142px;
+  height: auto;
+}
+
+.love-start {
+  display: flex;
+  margin-top: 40px;
+}
+.love-start > button {
+  background: #ff4c4c;
+  color: white;
+
+  padding: 12px 64px;
+  border-radius: 8px;
+  font-size: 20px;
+
+  border: none;
+  outline: none;
+  margin: 0 auto;
+}

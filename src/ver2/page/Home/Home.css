@@ -1,0 +1,78 @@
+/* home banner */
+.home-banner {
+  background: linear-gradient(91.12deg, #1a542f 21.71%, #355b42 78.53%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.home-banner-text {
+  color: white;
+  max-width: 367px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-banner-text > h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.home-banner-text > p {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 12px 0 40px;
+}
+
+.home-banner-text > a {
+  display: flex;
+  width: max-content;
+  padding: 16px 24px;
+  border-radius: 8px;
+
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home-episodes-head {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 48px 0 24px;
+}
+
+.home-episodes-head > button {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* home-events */
+.home-recent {
+  margin-top: 24px;
+}
+
+.home-recent-main {
+  display: flex;
+  gap: 30px;
+}
+
+.home-comment {
+  color: white;
+}

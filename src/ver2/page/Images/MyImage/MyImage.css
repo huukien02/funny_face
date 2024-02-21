@@ -1,0 +1,25 @@
+.my-image {
+  background-color: #32323280;
+  padding: 40px 24px;
+}
+
+.my-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -6px;
+}
+
+.my-image-item {
+  list-style: none;
+  padding: 8px 6px;
+}
+
+.my-image-item image {
+  width: 100%;
+  max-height: 650px;
+}
+
+.my-image-item a {
+  display: inline-block;
+  padding: 10px;
+}

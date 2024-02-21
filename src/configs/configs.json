@@ -1,0 +1,11 @@
+{
+  "SERVER_API_METATECH": "https://databaseswap.mangasocial.online",
+
+  "SERVER_API_THINKDIFF": "https://thinkdiff.us",
+
+  "SERVER_API_LHVN": "https://videoswap.mangasocial.online",
+
+  "SERVER_API_USER_DETAIL": "https://api.ipify.org/?format=json",
+
+  "SERVER_SAKAIVN": "https://sakaivn.online"
+}

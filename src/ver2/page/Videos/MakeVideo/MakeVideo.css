@@ -1,0 +1,81 @@
+.make-video {
+  background: #32323280;
+}
+
+.make-video .create-video {
+  width: 160px;
+  height: 160px;
+  border: 6px solid #26a5fc;
+  border-radius: 50%;
+  position: relative;
+
+  background-color: #8c8c8c;
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.make-video .create-video-add {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 60px;
+  height: 60px;
+}
+
+.make-video .name-video,
+.make-video .start-video {
+  background-color: #303030;
+  border-radius: 8px;
+  gap: 10px;
+  width: 267px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.make-video .name-video > input {
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  width: 138px;
+}
+
+.make-video .name-video > input::placeholder {
+  color: #fff;
+}
+
+.make-video .start-video {
+  background: #1db954;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.make-video .upload-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.make-video__video {
+  border: 8px solid #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.make-video__video > video {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.make-video {
+  padding: 80px 24px;
+}

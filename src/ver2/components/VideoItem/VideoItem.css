@@ -1,0 +1,32 @@
+.component-video {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.component-video-wrap {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background: #323232;
+  color: white;
+  text-align: center;
+}
+
+.component-video-wrap video {
+  width: 100%;
+  object-fit: cover;
+}
+
+.component-video-link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.component-video-link > h3 {
+  text-transform: uppercase;
+}

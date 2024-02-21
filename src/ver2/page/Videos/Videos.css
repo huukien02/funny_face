@@ -1,0 +1,64 @@
+.video-list {
+  margin: 0 -6px;
+}
+
+.video-list-item {
+  list-style: none;
+  padding: 8px 6px;
+}
+
+.video-list-item video {
+  width: 100%;
+  max-height: 650px;
+}
+
+.video-list-link {
+  padding: 10px;
+}
+
+.video-list-link a {
+  color: white;
+}
+
+/* category */
+
+.video-list-category {
+  position: relative;
+  margin: 40px 6px 22px;
+}
+
+.video-list-filterIcon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+
+.video-list-select {
+  border-radius: 8px !important;
+  display: flex !important;
+  background: #1db954;
+  width: 215px;
+  height: 62px;
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  padding: 16px;
+  font-family: "Quicksand" !important;
+}
+
+.video-list-select > :first-child {
+  margin-left: 16px;
+}
+
+.video-list-select > svg {
+  font-size: 24px;
+  color: #fff;
+  right: 16px;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list > li {
+  font-size: 14px;
+  font-weight: 600;
+}

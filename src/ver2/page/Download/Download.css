@@ -1,0 +1,42 @@
+.downloadApp-image {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  margin: 40px auto;
+}
+
+.downloadApp-btn {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+
+  color: white;
+}
+
+.downloadApp-btn > a {
+  display: flex;
+  gap: 12px;
+
+  border: 1px solid white;
+  min-width: 165px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.downloadApp-icon {
+  width: 32px;
+}
+
+.downloadApp-sub-title {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  line-height: 1.2;
+}
+
+.downloadApp-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.2;
+}

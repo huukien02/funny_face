@@ -1,0 +1,163 @@
+.event-history-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: white;
+  padding: 16px 0 16px 12px;
+}
+
+.event-user__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.event-user__avatar > img {
+  object-fit: cover;
+  height: 100%;
+}
+.event-user__name {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.event-history-marry {
+  background: linear-gradient(153.43deg, #ffebee 16.67%, #ffc5c8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 50px;
+  border-radius: 16px;
+  color: black;
+  cursor: pointer;
+}
+.event-marry__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.event-marry__info > h3 {
+  font-size: 24px;
+  font-family: 'starborn';
+}
+.event-marry__info > p {
+  font-size: 16px;
+  /* max-width: 243px; */
+  max-width: 300px;
+  line-height: 1.5;
+  font-weight: 500;
+
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.event-marry__view {
+  display: flex;
+  gap: 28px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.event-marry__view > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.event-marry__view > time {
+  font-size: 12px;
+}
+.event-marry__image {
+  width: 226px;
+  height: 212px;
+  position: relative;
+}
+
+.event-marry__image .image1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+
+.event-marry__image .image2 {
+  position: absolute;
+  width: 66%;
+  height: 71%;
+  object-fit: cover;
+  left: 46px;
+  top: 44px;
+}
+.event-marry__times {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.event-history-interact > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.event-history-interact {
+  display: flex;
+  color: white;
+  gap: 24px;
+  padding: 16px 0;
+  font-size: 16px;
+}
+
+
+.event-history-item hr {
+  color: #c6c6c6;
+}
+
+/* pagination */
+
+.event-history-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  color: white;
+}
+
+.arrow-link {
+  width: 33px;
+  height: 33px;
+  background: #9f9f9f;
+  border-radius: 50%;
+  display: flex;
+  color: #404040;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.pagination-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.pagination-link:hover {
+    color: white;
+}
+
+.pagination-item.active {
+  background: #1db954;
+}
+
+

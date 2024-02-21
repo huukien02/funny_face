@@ -1,0 +1,83 @@
+.album-detail {
+  background: #32323280;
+  text-align: center;
+  padding: 80px 24px;
+}
+
+/* info */
+.detail-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 64px;
+  font-weight: 600;
+}
+
+.detail-avatar {
+  border: 6px solid #26a5fc;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.detail-avatar img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.detail-name {
+  font-size: 24px;
+  color: #fff;
+  margin: 28px 0;
+}
+
+.detail-time {
+  font-size: 18px;
+  color: #fff;
+}
+
+.detail-btn {
+  width: 267px;
+  height: 62px;
+  border-radius: 8px;
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-save {
+  color: #000;
+  background-color: #fff;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.detail-download {
+  color: #fff;
+  background: #1db954;
+  font-size: 24px;
+}
+
+/* main*/
+
+.detail-main {
+  display: flex;
+  gap: 36px;
+}
+
+.detail-album-item {
+  border: 8px solid #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.detail-album-item > album {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
