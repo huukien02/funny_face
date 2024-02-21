@@ -170,6 +170,7 @@ const GenBaby = () => {
       <Header
         data={{
           title: "baby generator",
+          myCollection: "my-babies"
         }}
       />
       <div

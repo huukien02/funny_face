@@ -26,6 +26,8 @@ import logoutIcon from "../../components/image/sideBar/LogoutIcon.svg";
 import logoutIconActive from "../../components/image/sideBar/LogoutIconActive.svg";
 import loginIcon from "../../components/image/sideBar/LoginIcon.svg";
 import loginIconActive from "../../components/image/sideBar/LoginIconActive.svg";
+import myBabies from "../../components/image/sideBar/MyBabies.svg"
+import myBabiesActive  from "../../components/image/sideBar/MyBabiesActive.svg"
 
 const SideBar = (props) => {
   const [sideBarHidden, setSideBarHidden] = useState(false);
@@ -72,6 +74,14 @@ const SideBar = (props) => {
       iconActive: imagePlaylistIconActive,
       path: "/images",
     },
+
+    {
+      name: "My babies",
+      icon: myBabies,
+      iconActive: myBabiesActive,
+      path: "/my-babies",
+    },
+
     {
       name: "Create your video",
       icon: createVideoIcon,
@@ -91,7 +101,7 @@ const SideBar = (props) => {
       icon: babyIcon,
       iconActive: babyIconActive,
       path: "/genbaby",
-    },
+    }
   ];
 
   const botMenus = [

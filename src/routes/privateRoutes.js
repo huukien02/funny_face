@@ -25,6 +25,7 @@ import Download from "../ver2/page/Download/Download";
 
 import LayoutUser from "../ver2/layouts/LayoutUser";
 import MainMiddleware from "../middleware/MainMiddleware";
+import MyBaby from "../ver2/page/GenBaby/MyBaBy/MyBaby";
 
 export const privateRoutes = (
   <Route path="" element={<LayoutUser />}>
@@ -56,9 +57,9 @@ export const privateRoutes = (
       <Route path="/create-image" element={<CreateImage />} />
       <Route path="/images/make-image" element={<MakeImage />} />
       <Route path="/images/make-album" element={<MakeAlbum />} />
-      {/* <Route path="/images/my-images" element={<MyVideo />} /> */}
       <Route path="/images/my-images" element={<MyImage />} />
       <Route path="/genbaby" element={<GenBaby />} />
+      <Route path="/my-babies" element={<MyBaby />} />
       <Route path="/love" element={<Love />} />
       <Route path="/profile" element={<Profile />} />
     </Route>

@@ -19,6 +19,7 @@ import girlsmall from "../image/girl-small.png";
 import Clock from "../ClockEvent/CLockEvent";
 
 const Header = ({ data }) => {
+  console.log(data?.myCollection)
   const [isSticky, setSticky] = useState(false);
   const [openSideBarMobile, setOpenSideBarMobile] = useState(false);
   const [sideBarHover, setSideBarHover] = useState(false);
