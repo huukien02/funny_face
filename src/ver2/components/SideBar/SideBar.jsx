@@ -76,13 +76,6 @@ const SideBar = (props) => {
     },
 
     {
-      name: "My babies",
-      icon: myBabies,
-      iconActive: myBabiesActive,
-      path: "/my-babies",
-    },
-
-    {
       name: "Create your video",
       icon: createVideoIcon,
       iconActive: createVideoIconActive,

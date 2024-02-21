@@ -32,7 +32,7 @@ function Download() {
         <div className="flex justify-center gap-4 text-white">
           <Link
             to={
-              "https://play.google.com/store/apps/details?id=com.thinkdiffai.futurelove"
+              "https://play.google.com/store/apps/details?id=com.thinkdiffai.funnyfuturefacelove&fbclid=IwAR0B1m9gG_wXkTzUOhNqQWNPzMQaROqizRYkEGmdhaIvGS-d-a6hP9KtCew"
             }
             className="flex gap-3 border border-white p-3 rounded-xl"
           >
